@@ -1,12 +1,14 @@
-
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
  
 
   return (
-    <div className="App">
-      <h2>Burneat</h2>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <h2>Burneat</h2>
+      </div>
+    </BrowserRouter>
   )
 }
 
