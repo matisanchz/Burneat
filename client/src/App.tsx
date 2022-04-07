@@ -1,15 +1,9 @@
-import { BrowserRouter } from 'react-router-dom';
+import  Routes  from './Routes/Routes'
+import './Styles/globals.css'
+
 
 function App() {
- 
-
-  return (
-    <BrowserRouter>
-      <div className="App">
-        <h2>Burneat</h2>
-      </div>
-    </BrowserRouter>
-  )
+   return <Routes/>
 }
 
 export default App

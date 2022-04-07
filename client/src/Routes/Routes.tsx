@@ -1,13 +1,20 @@
 
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import { Home } from '../Pages/index';
+import Layout from '../Layouts/Layout'
 
-function Routes() {
-  return (
-    <Switch>
-        <Route exact component={Home} path="/" />
-    </Switch>
-  )
+const Routes = () => {
+    return (
+        <BrowserRouter>
+            <Layout>
+
+                <Switch>
+                    <Route exact component={Home} path="/" />
+                </Switch>
+
+            </Layout>
+        </BrowserRouter>
+    )
 }
 
 export default Routes;
