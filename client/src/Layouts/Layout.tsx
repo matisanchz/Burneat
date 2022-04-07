@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar, Footer } from './index';
 
-const Layout = ({children}) => {
+const Layout: React.FC = ({children}) => {
   return (
     <>  
         <Navbar/> 

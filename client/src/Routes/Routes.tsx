@@ -3,7 +3,7 @@ import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import { Home } from '../Pages/index';
 import Layout from '../Layouts/Layout'
 
-const Routes = () => {
+const Routes: React.FC = () => {
     return (
         <BrowserRouter>
             <Layout>

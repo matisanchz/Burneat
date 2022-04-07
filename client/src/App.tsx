@@ -2,7 +2,7 @@ import  Routes  from './Routes/Routes'
 import './Styles/globals.css'
 
 
-function App() {
+const App: React.FC = () => {
    return <Routes/>
 }
 
