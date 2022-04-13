@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Copyright } from '../Copyright/Copyright';
 import { Newsletter } from '../Newsletter/Newsletter';
 import { Icon } from './index'
  
@@ -87,11 +88,7 @@ export const Footer: React.FC<FooterProps> = () => {
                         </div>
 
                         <div className="mb-6">
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-                                repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-                                eum harum corrupti dicta, aliquam sequi voluptate quas.
-                            </p>
+                            <Copyright/>
                         </div>
 
                         <div className="grid lg:grid-cols-4 md:grid-cols-2">
